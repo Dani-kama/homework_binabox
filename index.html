@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--BAHC2-43 a comment made for homework jJ-->
+<!--BAHC2-43 a comment made for homework -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,10 +10,7 @@
 <body>
 
     <header class="main-header hdr" id="home">
-
-        <div class="logo-button">
-            <a href="/index.html" class="logo-img"><img src="./img/logo.png" alt="binabox logo"></a>
-        </div>
+        <a href="/index.html" class="logo-img"><img src="./img/logo.png" alt="binabox logo"></a>
 
         <nav class="header-nav">
             <ul class="hader-nav-list">
@@ -98,23 +95,14 @@
 
             </ul>
         </nav>
-
-        <div class="swich-button">
             <button class="switch-light"><img src="./img/switch-btn.png" alt="switch mode"></button>
-        </div>
-
-        <div class="header-button-connect">
-            <ul class="header-connect-list">
-                <li class="discord-btn-item">
-                    <button class="btn-discord-header"><img src="./img/discord-original.png" alt="join us in discord"></button>
-                </li>
-                <li class="connect-btn-item">
-                    <button class="btn-connect-header"><img src="./img/connect-btn.png" alt="connect">connect</button>
-                </li>
-            </ul>
-        </div>
-
+            <div class="header-connect-btn">
+                <button class="btn-discord-header"><img src="./img/discord-original.png" alt="join us in discord"></button>
+                <button class="btn-connect-header"><img src="./img/connect-btn.png" alt="connect">connect</button>
+            </div>
+    
     </header>
+
     <main>
 
         <section class="tagline">
@@ -128,43 +116,43 @@
                 <dt class="numbers-item">1000+</dt>
                 <dd class="numbers-text">Profiles whitelisted</dd>
             </dl>
-            <ul class="slider-btn">
-                <li><button class="connect-wallet">connect wallet</button></li>
-                <li><button class="connect-wallet">whitelist now</button></li>
-            </ul>
-            <img src="./img/image-main-462.png" alt="Binabox library image">
-
-            <div class="collection-products">
-                <article class="carusel-cards">
-                    <article class="carusel-item">
-                        <img src="./img/nft-card1.png" alt="nft card" class="carussel-img">
-                        <h3>SKISIRS#2</h3>
-                    </article>
-                    <article class="carusel-item">
-                        <img src="./img/nft-card2.png" alt="nft card" class="carussel-img">
-                        <h3>SKISIRS#2</h3>
-                    </article>
-                    <article class="carusel-item">
-                        <img src="./img/nft-card3.png" alt="nft card" class="carussel-img">
-                        <h3>SKISIRS#2</h3>
-                    </article>
-                    <article class="carusel-item">
-                        <img src="./img/nft-card4.png" alt="nft card" class="carussel-img">
-                        <h3>SKISIRS#2</h3>
-                    </article>
-                    <article class="carusel-item">
-                        <img src="./img/nft-card5.png" alt="nft card" class="carussel-img">
-                        <h3>SKISIRS#2</h3>
-                    </article>
-                    <article class="carusel-item">
-                        <img src="./img/nft-card6.png" alt="nft card" class="carussel-img">
-                        <h3>SKISIRS#2</h3>
-                    </article>
-                </article>
+            <div class="slider-btn">
+                <button class="connect-wallet">connect wallet</button>
+                <button class="connect-wallet">whitelist now</button>
             </div>
+            <img src="./img/image-main-462.png" alt="Binabox library image">
 
         </section>
 
+        <section class="carusel-hft">
+            <h2 class="hidden">Collection NFT</h2>
+            <ul class="carusel-list-home-page">
+                <li class="carusel-item">
+                    <img src="./img/nft-card1.png" alt="nft card" class="carussel-img">
+                    <h3>SKISIRS#2</h3>
+                </li>
+                <li class="carusel-item">
+                    <img src="./img/nft-card2.png" alt="nft card" class="carussel-img">
+                    <h3>SKISIRS#2</h3>
+                </li>
+                <li class="carusel-item">
+                    <img src="./img/nft-card3.png" alt="nft card" class="carussel-img">
+                    <h3>SKISIRS#2</h3>
+                </li>
+                <li class="carusel-item">
+                    <img src="./img/nft-card4.png" alt="nft card" class="carussel-img">
+                    <h3>SKISIRS#2</h3>
+                </li>
+                <li class="carusel-item">
+                    <img src="./img/nft-card5.png" alt="nft card" class="carussel-img">
+                    <h3>SKISIRS#2</h3>
+                </li>
+                <li class="carusel-item">
+                    <img src="./img/nft-card6.png" alt="nft card" class="carussel-img">
+                    <h3>SKISIRS#2</h3>
+                </li>
+            </ul>
+        </section>
         <section class="about" id="about">
             <header class="about-us-hdr hdr">
                 <h2>ABOUT US</h2>
@@ -199,36 +187,36 @@
             <header class="how-to-work-hdr hdr">
                 <h2>HOW TO <span class="colored-text">BINABOX</span> WORK</h2>
             </header>
-            <div class="steps-how-to">
-                <article class="step-how-to">
+            <ol class="steps-how-to-list">
+                <li class="step-how-to">
                     <img class="icon-step" src="./img/Icon.png" alt="icon step">
                     <dl class="step-items">
                         <dt><span class="colored-text">step 1</span></dt>
                         <dd>Connect Your Wallet</dd>
                     </dl>
-                </article>
-                <article class="step-how-to">
+                </li>
+                <li class="step-how-to">
                     <img class="icon-step" src="./img/Icon2.png" alt="icon step">
                     <dl class="step-items">
                         <dt><span class="colored-text">step 2</span></dt>
                         <dd>Sellect Your Quaility</dd>
                     </dl>
-                </article>
-                <article class="step-how-to">
+                </li>
+                <li class="step-how-to">
                     <img class="icon-step" src="./img/icon3.png" alt="icon step">
                     <dl class="step-items">
                         <dt><span class="colored-text">step 3</span></dt>
                         <dd>Confiem the Transaction</dd>
                     </dl>
-                </article>
-                <article class="step-how-to">
+                </li>
+                <li class="step-how-to">
                     <img class="icon-step" src="./img/icon4.png" alt="icon step">
                     <dl class="step-items">
                         <dt><span class="colored-text">step 4</span></dt>
                         <dd>Receive Your NFTs</dd>
                     </dl>
-                </article>
-            </div>
+                </li>
+            </ol>
 
         </section>
 
@@ -238,7 +226,11 @@
             </header>
 
             <div class="road-map-list">
-                <img src="./img/img-phase1-1.png" alt="dpic"><img src="./img/img-phase1-1.png" alt="dpic"><img src="./img/img-phase1-2.png" alt="dpic">
+                <figure>
+                    <img src="./img/img-phase1.png" alt="dpic">
+                    <img src="./img/img-phase1-1.png" alt="dpic">
+                    <img src="./img/img-phase1-2.png" alt="dpic">
+                </figure>
                 <p><span class="phase-step">phases 1</span></p>
                 <ul class="'phase-item-list">
                     <li><img src="./img/binabox-ico.png" alt="icon">Befriending & Chat Functions</li>
@@ -248,12 +240,13 @@
                 </ul>
                 <button class="readmore-about-us">about us</button>
             </div>
-            <div class="r-map-list-icons">
-                <button type="button">PHASE 1</button>
-                <button type="button">PHASE 2</button>
-                <button type="button">PHASE 3</button>
-                <button type="button">PHASE 4</button>
-            </div>
+
+            <ol class="r-map-list-icons">
+                <li><button type="button">PHASE 1</button></li>
+                <li><button type="button">PHASE 2</button></li>
+                <li><button type="button">PHASE 3</button></li>
+                <li><button type="button">PHASE 4</button></li>
+            </ol>
 
         </section>
 
@@ -262,156 +255,99 @@
                 <h2>OUR TEAM</h2>
             </header>
 
-            <div class="team-list-cards">
-                <article class="our-team-member">
-
-                    <div class="card-header">
-                        <img src="/img/photo-Founder.png" alt="photo">
-                    </div>
-
-                    <div class="card-body">
-                        <dl>
-                            <dt>Ralph Edwards</dt>
-                            <dd>Founder</dd>
-                        </dl>
-                    </div>
-
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary"><img src="./img/linkd-ico.png" alt="icon"></a>
-                        <a href="#" class="btn btn-primary"><img src="./img/Facebook-ico.png" alt="icon"></a>
-                        <a href="#" class="btn btn-primary"><img src="./img/Instagram-ico.png" alt="icon"></a>
-                        <a href="#" class="btn btn-primary"><img src="./img/Telegram-ico.png" alt="icon"></a>
-                    </div>
-
-                </article>
-
-                <article class="our-team-member">
-                    <div class="card-header">
-                        <img src="./img/co-founder.png" alt="photo">
-                    </div>
-
-                    <div class="card-body">
-                        <dl>
-                            <dt>Jason Smith</dt>
-                            <dd>Co - Founder</dd>
-                        </dl>
-                    </div>
-
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary"><img src="./img/linkd-ico.png" alt="icon"></a>
-                        <a href="#" class="btn btn-primary"><img src="./img/Facebook-ico.png" alt="icon"></a>
-                        <a href="#" class="btn btn-primary"><img src="./img/Instagram-ico.png" alt="icon"></a>
-                        <a href="#" class="btn btn-primary"><img src="./img/Telegram-ico.png" alt="icon"></a>
-                    </div>
-
-                </article>
-
-                <article class="our-team-member">
-                    <div class="card-header">
-                        <img src="./img/wed-disigner.png" alt="photo">
-                    </div>
-
-                    <div class="card-body">
-                        <dl>
-                            <dt>Tony Wings</dt>
-                            <dd>Web Designer</dd>
-                        </dl>
-                    </div>
-
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary"><img src="./img/linkd-ico.png" alt="icon"></a>
-                        <a href="#" class="btn btn-primary"><img src="./img/Facebook-ico.png" alt="icon"></a>
-                        <a href="#" class="btn btn-primary"><img src="./img/Instagram-ico.png" alt="icon"></a>
-                        <a href="#" class="btn btn-primary"><img src="./img/Telegram-ico.png" alt="icon"></a>
-                    </div>
-
-                </article>
-
-                <article class="our-team-member">
-                    <div class="card-header">
-                        <img src="./img/pr-manager.png" alt="photo">
-                    </div>
-
-                    <div class="card-body">
-                        <dl>
-                            <dt>Esther Howard</dt>
-                            <dd>Project Manager</dd>
-                        </dl>
-                    </div>
-
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary"><img src="./img/linkd-ico.png" alt="icon"></a>
-                        <a href="#" class="btn btn-primary"><img src="./img/Facebook-ico.png" alt="icon"></a>
-                        <a href="#" class="btn btn-primary"><img src="./img/Instagram-ico.png" alt="icon"></a>
-                        <a href="#" class="btn btn-primary"><img src="./img/Telegram-ico.png" alt="icon"></a>
-                    </div>
-
-                </article>
-
-                <article class="our-team-member">
-                    <div class="card-header">
-                        <img src="./img/artist.png" alt="photo">
-                    </div>
-
-                    <div class="card-body">
-                        <dl>
-                            <dt>Jenny Wilson</dt>
-                            <dd>Artist</dd>
-                        </dl>
-                    </div>
-
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary"><img src="./img/linkd-ico.png" alt="icon"></a>
-                        <a href="#" class="btn btn-primary"><img src="./img/Facebook-ico.png" alt="icon"></a>
-                        <a href="#" class="btn btn-primary"><img src="./img/Instagram-ico.png" alt="icon"></a>
-                        <a href="#" class="btn btn-primary"><img src="./img/Telegram-ico.png" alt="icon"></a>
-                    </div>
-
-                </article>
-
-                <article class="our-team-member">
-                    <div class="card-header">
-                        <img src="./img/ui-ux.png" alt="photo">
-                    </div>
-
-                    <div class="card-body">
-                        <dl>
-                            <dt>Robert Fox</dt>
-                            <dd>UI/UX Designer</dd>
-                        </dl>
-                    </div>
-
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary"><img src="./img/linkd-ico.png" alt="icon"></a>
-                        <a href="#" class="btn btn-primary"><img src="./img/Facebook-ico.png" alt="icon"></a>
-                        <a href="#" class="btn btn-primary"><img src="./img/Instagram-ico.png" alt="icon"></a>
-                        <a href="#" class="btn btn-primary"><img src="./img/Telegram-ico.png" alt="icon"></a>
-                    </div>
-
-                </article>
-
-                <article class="our-team-member">
-                    <div class="card-header">
-                        <img src="./img/ux-architect.png" alt="photo">
-                    </div>
-
-                    <div class="card-body">
-                        <dl>
-                            <dt>Devon Lane</dt>
-                            <dd>Ux Architect</dd>
-                        </dl>
-                    </div>
-
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary"><img src="./img/linkd-ico.png" alt="icon"></a>
-                        <a href="#" class="btn btn-primary"><img src="./img/Facebook-ico.png" alt="icon"></a>
-                        <a href="#" class="btn btn-primary"><img src="./img/Instagram-ico.png" alt="icon"></a>
-                        <a href="#" class="btn btn-primary"><img src="./img/Telegram-ico.png" alt="icon"></a>
-                    </div>
-
-                </article>
-
-            </div>
+            <ol class="team-list-cards">                
+                <li class="our-team-member">
+                    <img src="/img/photo-Founder.png" alt="photo">
+                    <dl class="card-name-prof">
+                        <dt>Ralph Edwards</dt>
+                        <dd>Founder</dd>
+                    </dl>
+                    <ul class="card-footer-list">
+                        <li><a href="#" class="btn btn-primary"><img src="./img/linkd-ico.png" alt="icon"></a></li>
+                        <li><a href="#" class="btn btn-primary"><img src="./img/Facebook-ico.png" alt="icon"></a></li>
+                        <li><a href="#" class="btn btn-primary"><img src="./img/Instagram-ico.png" alt="icon"></a></li>
+                        <li><a href="#" class="btn btn-primary"><img src="./img/Telegram-ico.png" alt="icon"></a></li>
+                    </ul>
+                </li>
+                <li class="our-team-member">
+                    <img src="./img/co-founder.png" alt="photo">
+                    <dl class="card-name-prof">
+                        <dt>Jason Smith</dt>
+                        <dd>Co - Founder</dd>
+                    </dl>
+                    <ul class="card-footer-list">
+                        <li><a href="#" class="btn btn-primary"><img src="./img/linkd-ico.png" alt="icon"></a></li>
+                        <li><a href="#" class="btn btn-primary"><img src="./img/Facebook-ico.png" alt="icon"></a></li>
+                        <li><a href="#" class="btn btn-primary"><img src="./img/Instagram-ico.png" alt="icon"></a></li>
+                        <li><a href="#" class="btn btn-primary"><img src="./img/Telegram-ico.png" alt="icon"></a></li>
+                    </ul>
+                </li>
+                <li class="our-team-member">
+                    <img src="./img/wed-disigner.png" alt="photo">
+                    <dl class="card-name-prof">
+                        <dt>Tony Wings</dt>
+                        <dd>Web Designer</dd>
+                    </dl>
+                    <ul class="card-footer-list">
+                        <li><a href="#" class="btn btn-primary"><img src="./img/linkd-ico.png" alt="icon"></a></li>
+                        <li><a href="#" class="btn btn-primary"><img src="./img/Facebook-ico.png" alt="icon"></a></li>
+                        <li><a href="#" class="btn btn-primary"><img src="./img/Instagram-ico.png" alt="icon"></a></li>
+                        <li><a href="#" class="btn btn-primary"><img src="./img/Telegram-ico.png" alt="icon"></a></li>
+                    </ul>
+                </li>
+                <li class="our-team-member">
+                    <img src="./img/pr-manager.png" alt="photo">
+                    <dl class="card-name-prof">
+                        <dt>Esther Howard</dt>
+                        <dd>Project Manager</dd>
+                    </dl>
+                    <ul class="card-footer-list">
+                        <li><a href="#" class="btn btn-primary"><img src="./img/linkd-ico.png" alt="icon"></a></li>
+                        <li><a href="#" class="btn btn-primary"><img src="./img/Facebook-ico.png" alt="icon"></a></li>
+                        <li><a href="#" class="btn btn-primary"><img src="./img/Instagram-ico.png" alt="icon"></a></li>
+                        <li><a href="#" class="btn btn-primary"><img src="./img/Telegram-ico.png" alt="icon"></a></li>
+                    </ul>
+                </li>
+                <li class="our-team-member">
+                    <img src="./img/artist.png" alt="photo">
+                    <dl class="card-name-prof">
+                        <dt>Jenny Wilson</dt>
+                        <dd>Artist</dd>
+                    </dl>
+                    <ul class="card-footer-list">
+                        <li><a href="#" class="btn btn-primary"><img src="./img/linkd-ico.png" alt="icon"></a></li>
+                        <li><a href="#" class="btn btn-primary"><img src="./img/Facebook-ico.png" alt="icon"></a></li>
+                        <li><a href="#" class="btn btn-primary"><img src="./img/Instagram-ico.png" alt="icon"></a></li>
+                        <li><a href="#" class="btn btn-primary"><img src="./img/Telegram-ico.png" alt="icon"></a></li>
+                    </ul>
+                </li>
+                <li class="our-team-member">
+                    <img src="./img/ui-ux.png" alt="photo">
+                    <dl class="card-name-prof">
+                        <dt>Robert Fox</dt>
+                        <dd>UI/UX Designer</dd>
+                    </dl>
+                    <ul class="card-footer-list">
+                        <li><a href="#" class="btn btn-primary"><img src="./img/linkd-ico.png" alt="icon"></a></li>
+                        <li><a href="#" class="btn btn-primary"><img src="./img/Facebook-ico.png" alt="icon"></a></li>
+                        <li><a href="#" class="btn btn-primary"><img src="./img/Instagram-ico.png" alt="icon"></a></li>
+                        <li><a href="#" class="btn btn-primary"><img src="./img/Telegram-ico.png" alt="icon"></a></li>
+                    </ul>
+                </li>
+                <li class="our-team-member">
+                    <img src="./img/ux-architect.png" alt="photo">
+                    <dl class="card-name-prof">
+                        <dt>Devon Lane</dt>
+                        <dd>Ux Architect</dd>
+                    </dl>
+                    <ul class="card-footer-list">
+                        <li><a href="#" class="btn btn-primary"><img src="./img/linkd-ico.png" alt="icon"></a></li>
+                        <li><a href="#" class="btn btn-primary"><img src="./img/Facebook-ico.png" alt="icon"></a></li>
+                        <li><a href="#" class="btn btn-primary"><img src="./img/Instagram-ico.png" alt="icon"></a></li>
+                        <li><a href="#" class="btn btn-primary"><img src="./img/Telegram-ico.png" alt="icon"></a></li>
+                    </ul>
+                </li>
+            </ol>
 
         </section>
         <section class="partner">
@@ -478,21 +414,18 @@
     </main>
 
     <footer class="main-footer">
-        <div class="logo-button">
             <a href="/index.html" class="logo-img"><img src="./img/logo.png" alt="binabox logo"></a>
-        </div>
         <div class="copyright">
             <p>BINABOX <time>2022</time> -&copy;ALL rights reserved</p>
         </div>
-        <div class="list-nav-links-footer">
-            <ul>
+
+            <ul class="list-nav-links-footer">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#roadmap">Roadmap</a></li>
                 <li><a href="#our-team">Our team</a></li>
                 <li><a href="#faqs">FAQs</a></li>
             </ul>
-        </div>
     </footer>
 </body>
 
