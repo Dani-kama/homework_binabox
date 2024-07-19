@@ -108,7 +108,10 @@
     <main>
         <section class="item-page-hdr">
             <h1>ITEM DETAIL</h1>
-            <p><a href="./index.html">HOME</a><span class="colored-text">ITEM DETAIL</span></p>
+            <ul class="breadcrumb-nav">
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./catalog-item.html">ITEM DETAIL</a></li>
+            </ul>
         </section>
     
         <section class="item-detail">
@@ -119,45 +122,26 @@
 
             <div class="item-info">
                 <h2>sKISIRS#4587</h2>
-                <p>As the first hero of the Neoh Universe, collection has over 9,999 unique skins drawn from the different missions and challenges he faced throughout his life.</p>
-                
-                <div class="item-info-table">
-                    <table class="meta-info-item">
-                        <tr>
-                            <td>Clothing</td>
-                            <td>SNAKE</td>
-                        </tr>
-                        <tr>
-                            <td>Eyes</td>
-                            <td>MIX</td>
-                        </tr>
-                        <tr>
-                            <td>Face</td>
-                            <td>GREEN</td>
-                        </tr>
-                        <tr>
-                            <td>Skin</td>
-                            <td>GREEN</td>
-                        </tr>
-                        <tr>
-                            <td>Background</td>
-                            <td>GREEN LIGHT</td>
-                        </tr>
-                        <tr>
-                            <td>Special</td>
-                            <td>CAT</td>
-                        </tr>
-                    </table>
-                </div>
+                <p>As the first hero of the Neon Universe, collection has over 9,999 unique skins drawn from the different missions and challenges he faced throughout his life.</p>
+                <dl class="meta-info-item">
+                    <dt class="meta-info-name">Clothing</dt>
+                    <dd class="meta-info-value">SNAKE</dd>
+                    <dt class="meta-info-name">Eyes</dt>
+                    <dd class="meta-info-value">MIX</dd>
+                    <dt class="meta-info-name">Face</dt>
+                    <dd class="meta-info-value">GREEN</dd>
+                    <dt class="meta-info-name">Skin</dt>
+                    <dd class="meta-info-value">GREEN</dd>
+                    <dt class="meta-info-name">Background</dt>
+                    <dd class="meta-info-value">GREEN LIGHT</dd>
+                    <dt class="meta-info-name">Special</dt>
+                    <dd class="meta-info-value">CAT</dd>
+                </dl>                
+            </div>
 
                 <div class="item-info-price">
-                    <table class="table-item-pice">
-                        <tr>
-                            <td>PRICE:</td>
-                            <td id="price"><span class="price-for-item">0.15</span></td>
-                            <td id="currency"><span class="price-for-item"> ETH</span></td>
-                        </tr>
-                    </table>
+                        <p class="txt-for-price">PRICE:</p>
+                        <span class="price-for-item">0.15 ETH</span> <!--$$...$$ value is changed using JS or server code-->
                 </div>
 
                 <div class="links-item-info">
