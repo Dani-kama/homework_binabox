@@ -1,0 +1,791 @@
+/*_______________________fonts_______________________*/
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*____________________________________________________*/
+
+body {
+    background-color: #0D0D11;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+/*colored green text*/
+
+.text-label, .colored-text {
+    color: #21e786;
+}
+
+h1,h2,h3 {    
+    font-family: Bakbak one,
+    sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+}
+
+p {
+    font-family: Poppins,
+    sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+
+/*_______________________header_______________________*/
+
+.main-header {
+    background-color:#040b11;
+        height: 108px;
+    }
+
+/*_______________________nav links_____________________*/
+
+.nav-link-hdr a:link {
+    font-family: Bakbak One,
+    sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.nav-link-hdr a:hover {
+    color:#21e786;
+    text-decoration: underline ;
+}
+
+.nav-link-hdr a:visited {
+    color:#ffffffa7;
+}
+
+/*_______________________dropdown_______________________*/
+
+
+.nav-link-hdr:hover > .subnav {
+    display: block;
+}
+
+.subnav {
+    display: none;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+.nav-link-hdr {
+    float: left;
+    list-style:none
+}
+
+.hdr>div { 
+    display: inline-block;
+}
+
+/*____________________________________________________*/
+
+.header-connect-btn {
+    font-family: Bakbak One,
+    sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #141B22;
+}
+
+/*____________________________________________________*/
+
+.tagline {
+    width: 750px;
+    height: 290px;
+    padding: 0;
+    border: 1px;
+    margin: 24px 0px;
+}
+
+.main-tagline {
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.main-tagline>p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.numbers {
+    height: 90px;
+    padding: 0;
+    border: 1px;
+    margin: 48px 0px;
+}
+
+.numbers-item {
+    font-family: Bakbak One,
+    sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-shadow: 0 4px 13px  #ffffff66;
+}
+
+.numbers-text{    
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #c2c3c5;
+}
+
+.tagline-btns {
+    height: 48px;
+    padding: 0;
+    border: 1px;
+    margin: 48px 0px;
+}
+
+.connect-wallet-btn {
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    border: 2px;
+    margin: 48px 0px;
+    align-items: center;
+    background-color: #21e786;
+
+    /*text btn*/
+
+    font-family: Bakbak One,
+    sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    color: #141b22;
+}
+
+.whitelist-now-btn {
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    border: 2px solid #21e786;
+    margin: 0px 24px;
+    align-items: center;
+    background-color: transparent;
+    
+    /*text*/
+
+    font-family: Bakbak One,
+    sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+/*_________________carusel_____________*/
+
+/*
+.carusel-hft {
+
+}
+*/
+
+
+
+.about-us-hdr {
+    height: 156px;
+    padding: 0;
+    border: 1px;
+    margin-left: 240px;
+    margin-top: 0;
+    align-items: center;
+}
+
+.about-us-hdr>h2 {  
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.about-us-hdr>p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #c2c3c5;
+}
+
+
+.list-item-abts {
+    background-color: #141b22;
+    height: 224px;
+    margin-left: 120px;
+    margin-top: 216px;
+    border: 3px solid transparent;
+}
+
+.list-item-abts>h3 {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.list-item-abts>p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #C2C3C5;
+    height: 30px;
+}
+
+.numbers-about {
+font-size: 80px;
+line-height: 120%;
+text-transform: capitalize;
+opacity: 0.5;
+color: #000;
+-webkit-text-stroke: 1px #21E786;
+}
+
+.list-item-abts:hover {
+    border: 3px solid transparent;
+    border-image: linear-gradient(to left top,#21E786 10%,  transparent 20%, transparent 80%, #21E786 100%);
+    border-image-slice: 1;
+}
+
+.readmore-about-us {
+    border: 2px solid #21e786;
+    background-color: transparent;
+    padding: 12px 24px 12px 24px;
+    font-family: Bakbak One;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+/*__________________how work_________________________*/
+
+.how-to-work-hdr>h2 {
+    font-size: 44px;
+    line-height: 127%;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.step-how-to {
+    background-color: #141b22;
+    border: 3px solid  transparent;
+    width: 330px;
+    height: 210px;
+    margin: 30px;
+}
+
+.step-how-to:hover {
+    border: 3px solid transparent;
+    border-image: linear-gradient(to left top,#21E786 10%,  transparent 20%, transparent 80%, #21E786 100%);
+    border-image-slice: 1;
+}
+
+.step-items>dt {
+    font-family: Bakbak One,
+    sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #21e786;
+}
+
+.step-items>dd {
+font-family: "Bakbak One", sans-serif;
+font-weight: 400;
+font-size: 24px;
+line-height: 133%;
+text-transform: capitalize;
+text-align: center;
+color: #fff;
+}
+
+/*___________________ road map__________________________*/
+
+/* ! следует ли тут использовать list-style-image ? */
+
+
+.r-map-hdr>h2 {
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.road-map-list {
+    background: #ffffff0d;
+}
+
+.phase-step {
+    font-family: Bakbak One;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.phase-items {    
+    list-style: none;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #c2c3c5;
+}
+
+.r-map-list-btns {
+    list-style: none;
+    font-family: Bakbak One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+/*___________________our team__________________________*/
+
+.our-team-hdr>h2 {
+    font-family: Bakbak One;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.our-team-member {
+    box-shadow: 0px 2px 5px 0px #1c24331a;
+    background: #141b22;
+    width: 330px;
+    height: 339px;
+    margin-top: 116px;
+    border: 3px solid  transparent;
+}
+
+.our-team-member:hover {
+    border: 3px solid transparent;
+    border-image: linear-gradient(to left top,#21E786 10%,  transparent 20%, transparent 80%, #21E786 100%);
+    border-image-slice: 1;
+}
+
+.card-name-prof {
+    padding: 0px;
+    border: 1px;
+}
+
+.card-name-prof>dt {
+    font-family: Bakbak One;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.card-name-prof>dd {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #c2c3c5;
+    margin: 4px 0px;
+}
+
+.partner-hdr>h2 {
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/*__________________________faq______________________________*/
+
+
+.faq-hdr>h2 {
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+    .details-item {
+    background: #141b22;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px;
+    margin: 24px 0px;
+}
+
+    .details-item>summary {
+    font-family: Bakbak One;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+    .details-item>p {        
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #c2c3c5;
+}
+
+/*___________________join___________________*/
+
+.subscribe-hdr>h2 {
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.subscribe-hdr>p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #c2c3c5;
+}
+
+.btn-discord-footer {
+    background: #5865f2;
+    color: #ffffff;
+    font-family: Bakbak One;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    align-items: center;
+    padding: 12px 24px 12px 24px;
+}
+
+.btn-whitelist-footer {    
+    font-family: Bakbak One;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    color: #141b22;
+    background: #21e786;
+    align-items: center;
+    padding: 12px 24px 12px 24px;
+}
+
+.list-nav-links-footer a {
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    text-align: right;
+    color: #c2c3c5;
+}
+.list-nav-links-footer a:hover {
+    color: #21e786;
+}
+
+/*_________________________catalog_______________*/
+
+
+.line-hdr>h1 {
+font-size: 44px;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+background-color:#141b22;;
+}
+
+/* ! what is right way to display this ? */
+/*
+.breadcrumb-nav {
+    list-style: none;
+}
+
+.breadcrumb-nav li {
+    display: inline;
+}
+
+.breadcrumb-nav li+li:before {
+    padding: 2px;
+    color: #888b8e;
+    content: "|";
+}
+
+.breadcrumb-nav a {
+    color: #888b8e;
+    text-decoration: none;
+    font-family: Bakbak One;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.breadcrumb-nav:last-child{
+    color: #08fa0c;
+}
+*/
+
+.catalog-nft>h2 {
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.subscribe2 {
+    background: linear-gradient(225deg, #2333de 0%, #0abe66 100%);
+    border-radius: 8px;
+}
+
+.footer2>p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.list-nav-links-footer-secondary>h3 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.list-nav-links-footer-secondary>ul>li>a {
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: right;
+color: #c2c3c5;
+}
+
+.list-nav-links-footer-secondary>ul>li>a:hover {
+    color: #21e786;
+}
+
+.list-links-footer-secondary>h3 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.list-links-footer-secondary>ul>li>a {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #c2c3c5;
+}
+
+.list-links-footer-secondary>ul>li>a:hover {
+    color: #21e786;
+}
+
+/*______________________catalog item_________________*/
+
+
+.item-info>h2 {
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.item-info>p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* ! нужнно поменять код html добавив отдельные списки а не один с несколькими вложеными dt ? */
+.meta-info-item dt {
+    background: #141b22;
+    padding: 20px;
+    border:1px;
+}
+
+.meta-info-name {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #c2c3c5;
+}
+
+.meta-info-value {   
+    font-family: Bakbak One;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.txt-for-price, .price-for-item {
+    font-family: Bakbak One,
+    sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.links-item-info a:first-child {
+    align-items: center;
+    padding: 16px 24px 16px 24px;
+    border: 2px;
+    margin-bottom: 80px;
+    background: #21e786;
+    font-family: Bakbak One;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    color: #141b22;
+}
+
+.links-item-info a {
+    border: 2px solid #888b8e;
+    padding: 16px 24px;
+    font-family: Bakbak One;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.carusel-hft>h2 {
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.carusel-item>h3 {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+/*________need to change the picture to svg for correct disp_____________*/
+.slider-btn button {
+    border: 1px solid #21e786;
+    background-color: transparent;
+}
+
+.slider-btn button :hover {
+    background: #21e786;
+}
+
+
+
+
+
+
+
+
+
