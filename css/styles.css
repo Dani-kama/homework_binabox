@@ -89,7 +89,7 @@ p {
 .header-connect-btn {
     font-size: 16px;
     line-height: 24px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     color: #141B22;
 }
 
@@ -106,7 +106,7 @@ p {
     line-height: 80px;
     letter-spacing: 0%;
     text-align: left;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .main-tagline>p {
@@ -127,7 +127,7 @@ p {
     line-height: 56px;
     letter-spacing: 0%;
     text-align: left;
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-shadow: 0 4px 13px  #ffffff66;
 }
 
@@ -200,7 +200,7 @@ p {
     line-height: 56px;
     letter-spacing: 0%;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .about-us-hdr>p {
@@ -224,7 +224,7 @@ p {
     line-height: 30px;
     letter-spacing: 0%;
     text-align: left;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .list-item-abts>p {
@@ -267,7 +267,7 @@ p {
 .how-to-work-hdr>h2 {
     font-size: 44px;
     line-height: 56px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-align: center;
 }
 
@@ -288,7 +288,7 @@ p {
     font-size: 22px;
     letter-spacing: 0%;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
     color: #21e786;
 }
 
@@ -306,7 +306,7 @@ p {
     line-height: 56px;
     letter-spacing: 0%;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .road-map-list {
@@ -314,11 +314,15 @@ p {
 }
 
 .phase-step {
+    font-family: "Bakbak one", Impact,
+    sans-serif;
+    font-style: normal;
+    font-weight: 400;
     font-size: 36px;
     line-height: 44px;
     letter-spacing: 0%;
     text-align: left;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .phase-items {    
@@ -338,7 +342,7 @@ p {
     line-height: 28px;
     letter-spacing: 0%;
     text-align: left;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 /*___________________our team__________________________*/
@@ -348,7 +352,7 @@ p {
     line-height: 56px;
     letter-spacing: 0%;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .our-team-member {
@@ -404,7 +408,7 @@ p {
     line-height: 56px;
     letter-spacing: 0%;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
     .details-item {
@@ -442,7 +446,7 @@ p {
     line-height: 56px;
     letter-spacing: 0%;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .subscribe-hdr>p {
@@ -451,6 +455,7 @@ p {
     letter-spacing: 0%;
     text-align: center;
     color: #c2c3c5;
+    text-transform: capitalize;
 }
 
 .btn-discord-footer {
@@ -485,6 +490,7 @@ p {
     line-height: 22px;
     text-align: right;
     color: #c2c3c5;
+    text-transform: capitalize;
 }
 
 .list-nav-links-footer a:hover {
@@ -499,7 +505,7 @@ p {
     line-height: 56px;
     letter-spacing: 0%;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
     background-color: #141b22;;
 }
 
@@ -524,7 +530,7 @@ p {
     line-height: 20px;
     letter-spacing: 0%;
     text-align: left;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .breadcrumb-nav li:last-child a {
@@ -567,6 +573,7 @@ line-height: 22px;
 letter-spacing: 0%;
 text-align: right;
 color: #c2c3c5;
+text-transform: capitalize;
 }
 
 .list-nav-links-footer-secondary>ul>li>a:hover {
@@ -589,6 +596,7 @@ color: #c2c3c5;
     letter-spacing: 0%;
     text-align: right;
     color: #c2c3c5;
+    text-transform: capitalize;
 }
 
 .list-links-footer-secondary>ul>li>a:hover {
@@ -603,7 +611,7 @@ color: #c2c3c5;
     line-height: 56px;
     letter-spacing: 0%;
     text-align: left;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .item-info>p {
@@ -635,7 +643,7 @@ color: #c2c3c5;
     line-height: 30px;
     letter-spacing: 0%;
     text-align: left;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .txt-for-price, .price-for-item {
@@ -646,7 +654,7 @@ color: #c2c3c5;
     line-height: 44px;
     letter-spacing: 0%;
     text-align: left;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .links-item-info a:first-child {
@@ -679,7 +687,7 @@ color: #c2c3c5;
     line-height: 56px;
     letter-spacing: 0%;
     text-align: left;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .carusel-item>h3 {
@@ -687,7 +695,7 @@ color: #c2c3c5;
     line-height: 28px;
     letter-spacing: 0%;
     text-align: left;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 /*________need to change the picture to svg for correct disp_____________*/
