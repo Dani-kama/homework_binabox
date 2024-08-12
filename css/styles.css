@@ -1,12 +1,20 @@
-/*_______________________fonts_______________________*/
-@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-/*____________________________________________________*/
+@font-face {
+    font-family: "Bakbak one";
+    src: url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+}
 
 body {
     background-color: #0D0D11;
-    list-style: none;
     box-sizing: border-box;
+    font-family: "Bakbak one", Impact,
+    sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+}
+
+ul, ol, dl {
+    list-style: none;
 }
 
 a {
@@ -23,16 +31,8 @@ a {
     color: #21e786;
 }
 
-h1,h2,h3 {    
-    font-family: Bakbak one,
-    sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    color: #fff;
-}
-
 p {
-    font-family: Poppins,
+    font-family: Poppins, Arial, Helvetica,
     sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -43,17 +43,14 @@ p {
 /*_______________________header_______________________*/
 
 .main-header {
-    background-color:#040b11;
-        height: 108px;
+    background-color: #040b11;
     }
 
 /*_______________________nav links_____________________*/
 
 .nav-link-hdr a:link {
-    font-family: Bakbak One,
-    sans-serif;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 24px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #fff;
@@ -83,22 +80,13 @@ p {
     list-style: none; 
 }
 
-.nav-link-hdr {
-    float: left;
+.hader-nav-list {
     list-style:none
-}
-
-.hdr>div { 
-    display: inline-block;
 }
 
 /*____________________________________________________*/
 
 .header-connect-btn {
-    font-family: Bakbak One,
-    sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     text-transform: capitalize;
@@ -108,8 +96,6 @@ p {
 /*____________________________________________________*/
 
 .tagline {
-    width: 750px;
-    height: 290px;
     padding: 0;
     border: 1px;
     margin: 24px 0px;
@@ -131,29 +117,22 @@ p {
 }
 
 .numbers {
-    height: 90px;
     padding: 0;
     border: 1px;
     margin: 48px 0px;
 }
 
 .numbers-item {
-    font-family: Bakbak One,
-    sans-serif;
     font-size: 44px;
-    font-weight: 400;
     line-height: 56px;
     letter-spacing: 0%;
     text-align: left;
     text-transform: capitalize;
-    color: #ffffff;
     text-shadow: 0 4px 13px  #ffffff66;
 }
 
-.numbers-text{    
-    font-family: Poppins;
+.numbers-text {    
     font-size: 16px;
-    font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
     text-align: left;
@@ -161,14 +140,12 @@ p {
 }
 
 .tagline-btns {
-    height: 48px;
     padding: 0;
     border: 1px;
     margin: 48px 0px;
 }
 
 .connect-wallet-btn {
-    height: 48px;
     padding: 12px 24px 12px 24px;
     border: 2px;
     margin: 48px 0px;
@@ -177,10 +154,7 @@ p {
 
     /*text btn*/
 
-    font-family: Bakbak One,
-    sans-serif;
     font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
@@ -189,7 +163,6 @@ p {
 }
 
 .whitelist-now-btn {
-    height: 48px;
     padding: 12px 24px 12px 24px;
     border: 2px solid #21e786;
     margin: 0px 24px;
@@ -198,10 +171,7 @@ p {
     
     /*text*/
 
-    font-family: Bakbak One,
-    sans-serif;
     font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
@@ -217,10 +187,7 @@ p {
 }
 */
 
-
-
 .about-us-hdr {
-    height: 156px;
     padding: 0;
     border: 1px;
     margin-left: 240px;
@@ -247,7 +214,6 @@ p {
 
 .list-item-abts {
     background-color: #141b22;
-    height: 224px;
     margin-left: 120px;
     margin-top: 216px;
     border: 3px solid transparent;
@@ -267,16 +233,15 @@ p {
     letter-spacing: 0%;
     text-align: left;
     color: #C2C3C5;
-    height: 30px;
 }
 
 .numbers-about {
-font-size: 80px;
-line-height: 120%;
-text-transform: capitalize;
-opacity: 0.5;
-color: #000;
--webkit-text-stroke: 1px #21E786;
+    font-size: 80px;
+    line-height: 96px;
+    text-transform: capitalize;
+    opacity: 0.5;
+    color: #000;
+    -webkit-text-stroke: 1px #21E786;
 }
 
 .list-item-abts:hover {
@@ -289,9 +254,7 @@ color: #000;
     border: 2px solid #21e786;
     background-color: transparent;
     padding: 12px 24px 12px 24px;
-    font-family: Bakbak One;
     font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
@@ -303,7 +266,7 @@ color: #000;
 
 .how-to-work-hdr>h2 {
     font-size: 44px;
-    line-height: 127%;
+    line-height: 56px;
     text-transform: capitalize;
     text-align: center;
 }
@@ -311,8 +274,6 @@ color: #000;
 .step-how-to {
     background-color: #141b22;
     border: 3px solid  transparent;
-    width: 330px;
-    height: 210px;
     margin: 30px;
 }
 
@@ -323,11 +284,8 @@ color: #000;
 }
 
 .step-items>dt {
-    font-family: Bakbak One,
-    sans-serif;
-    font-size: 22px;
-    font-weight: 400;
     line-height: 30px;
+    font-size: 22px;
     letter-spacing: 0%;
     text-align: center;
     text-transform: capitalize;
@@ -335,21 +293,15 @@ color: #000;
 }
 
 .step-items>dd {
-font-family: "Bakbak One", sans-serif;
-font-weight: 400;
-font-size: 24px;
-line-height: 133%;
-text-transform: capitalize;
-text-align: center;
-color: #fff;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: capitalize;
+    text-align: center;
 }
 
 /*___________________ road map__________________________*/
 
-/* ! следует ли тут использовать list-style-image ? */
-
-
-.r-map-hdr>h2 {
+.road-map-hdr>h2 {
     font-size: 44px;
     line-height: 56px;
     letter-spacing: 0%;
@@ -362,19 +314,16 @@ color: #fff;
 }
 
 .phase-step {
-    font-family: Bakbak One;
     font-size: 36px;
-    font-weight: 400;
     line-height: 44px;
     letter-spacing: 0%;
     text-align: left;
     text-transform: capitalize;
-    color: #ffffff;
 }
 
 .phase-items {    
     list-style: none;
-    font-family: Poppins;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
@@ -385,34 +334,26 @@ color: #fff;
 
 .r-map-list-btns {
     list-style: none;
-    font-family: Bakbak One;
     font-size: 20px;
-    font-weight: 400;
     line-height: 28px;
     letter-spacing: 0%;
     text-align: left;
     text-transform: capitalize;
-    color: #ffffff;
 }
 
 /*___________________our team__________________________*/
 
 .our-team-hdr>h2 {
-    font-family: Bakbak One;
     font-size: 44px;
-    font-weight: 400;
     line-height: 56px;
     letter-spacing: 0%;
     text-align: center;
     text-transform: capitalize;
-    color: #ffffff;
 }
 
 .our-team-member {
     box-shadow: 0px 2px 5px 0px #1c24331a;
     background: #141b22;
-    width: 330px;
-    height: 339px;
     margin-top: 116px;
     border: 3px solid  transparent;
 }
@@ -429,18 +370,15 @@ color: #fff;
 }
 
 .card-name-prof>dt {
-    font-family: Bakbak One;
     font-size: 24px;
-    font-weight: 400;
     line-height: 30px;
     letter-spacing: 0%;
     text-align: center;
     text-transform: capitalize;
-    color: #ffffff;
 }
 
 .card-name-prof>dd {
-    font-family: Poppins;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
@@ -480,18 +418,15 @@ color: #fff;
 }
 
     .details-item>summary {
-    font-family: Bakbak One;
     font-size: 24px;
-    font-weight: 400;
     line-height: 30px;
     letter-spacing: 0%;
     text-align: left;
     text-transform: capitalize;
-    color: #ffffff;
 }
 
     .details-item>p {        
-    font-family: Poppins;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
@@ -511,9 +446,7 @@ color: #fff;
 }
 
 .subscribe-hdr>p {
-    font-family: Inter;
     font-size: 18px;
-    font-weight: 400;
     line-height: 28px;
     letter-spacing: 0%;
     text-align: center;
@@ -523,9 +456,7 @@ color: #fff;
 .btn-discord-footer {
     background: #5865f2;
     color: #ffffff;
-    font-family: Bakbak One;
     font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
@@ -535,9 +466,7 @@ color: #fff;
 }
 
 .btn-whitelist-footer {    
-    font-family: Bakbak One;
     font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
@@ -550,13 +479,14 @@ color: #fff;
 
 .list-nav-links-footer a {
     text-decoration: none;
-    font-family: Poppins, sans-serif;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: 157%;
+    line-height: 22px;
     text-align: right;
     color: #c2c3c5;
 }
+
 .list-nav-links-footer a:hover {
     color: #21e786;
 }
@@ -565,16 +495,14 @@ color: #fff;
 
 
 .line-hdr>h1 {
-font-size: 44px;
-line-height: 56px;
-letter-spacing: 0%;
-text-align: center;
-text-transform: capitalize;
-background-color:#141b22;;
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #141b22;;
 }
 
-/* ! what is right way to display this ? */
-/*
 .breadcrumb-nav {
     list-style: none;
 }
@@ -592,19 +520,17 @@ background-color:#141b22;;
 .breadcrumb-nav a {
     color: #888b8e;
     text-decoration: none;
-    font-family: Bakbak One;
     font-size: 14px;
-    font-weight: 400;
     line-height: 20px;
     letter-spacing: 0%;
     text-align: left;
     text-transform: capitalize;
 }
 
-.breadcrumb-nav:last-child{
+.breadcrumb-nav li:last-child a {
     color: #08fa0c;
 }
-*/
+
 
 .catalog-nft>h2 {
     font-size: 44px;
@@ -614,12 +540,12 @@ background-color:#141b22;;
     text-transform: capitalize;
 }
 
-.subscribe2 {
+.subscribe-secondary {
     background: linear-gradient(225deg, #2333de 0%, #0abe66 100%);
     border-radius: 8px;
 }
 
-.footer2>p {
+.footer-secondary>p {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0%;
@@ -634,7 +560,7 @@ background-color:#141b22;;
 }
 
 .list-nav-links-footer-secondary>ul>li>a {
-font-family: Poppins;
+font-family: Poppins, Arial, Helvetica, sans-serif;
 font-size: 14px;
 font-weight: 400;
 line-height: 22px;
@@ -656,7 +582,7 @@ color: #c2c3c5;
 }
 
 .list-links-footer-secondary>ul>li>a {
-    font-family: Poppins;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
@@ -695,7 +621,7 @@ color: #c2c3c5;
 }
 
 .meta-info-name {
-    font-family: Poppins;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -704,19 +630,16 @@ color: #c2c3c5;
     color: #c2c3c5;
 }
 
-.meta-info-value {   
-    font-family: Bakbak One;
+.meta-info-value {
     font-size: 24px;
-    font-weight: 400;
     line-height: 30px;
     letter-spacing: 0%;
     text-align: left;
     text-transform: capitalize;
-    color: #ffffff;
 }
 
 .txt-for-price, .price-for-item {
-    font-family: Bakbak One,
+    font-family: "Bakbak One", Impact,
     sans-serif;
     font-size: 36px;
     font-weight: 400;
@@ -732,9 +655,7 @@ color: #c2c3c5;
     border: 2px;
     margin-bottom: 80px;
     background: #21e786;
-    font-family: Bakbak One;
     font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
@@ -745,9 +666,7 @@ color: #c2c3c5;
 .links-item-info a {
     border: 2px solid #888b8e;
     padding: 16px 24px;
-    font-family: Bakbak One;
     font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
