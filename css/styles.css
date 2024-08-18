@@ -1,0 +1,718 @@
+@font-face {
+    font-family: "Bakbak one";
+    src: url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+}
+
+body {
+    background-color: #0D0D11;
+    box-sizing: border-box;
+    font-family: "Bakbak one", Impact,
+    sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+}
+
+ul, ol, dl {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+/*colored green text*/
+
+.text-label, .colored-text {
+    color: #21e786;
+}
+
+p {
+    font-family: Poppins, Arial, Helvetica,
+    sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+
+/*_______________________header_______________________*/
+
+.main-header {
+    background-color: #040b11;
+    }
+
+/*_______________________nav links_____________________*/
+
+.nav-link-hdr a:link {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.nav-link-hdr a:hover {
+    color:#21e786;
+    text-decoration: underline ;
+}
+
+.nav-link-hdr a:visited {
+    color:#ffffffa7;
+}
+
+/*_______________________dropdown_______________________*/
+
+
+.nav-link-hdr:hover > .subnav {
+    display: block;
+}
+
+.subnav {
+    display: none;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+.hader-nav-list {
+    list-style:none
+}
+
+/*____________________________________________________*/
+
+.header-connect-btn {
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #141B22;
+}
+
+/*____________________________________________________*/
+
+.tagline {
+    padding: 0;
+    border: 1px;
+    margin: 24px 0px;
+}
+
+.main-tagline {
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.main-tagline>p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.numbers {
+    padding: 0;
+    border: 1px;
+    margin: 48px 0px;
+}
+
+.numbers-item {
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    text-shadow: 0 4px 13px  #ffffff66;
+}
+
+.numbers-text {    
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #c2c3c5;
+}
+
+.tagline-btns {
+    padding: 0;
+    border: 1px;
+    margin: 48px 0px;
+}
+
+.connect-wallet-btn {
+    padding: 12px 24px 12px 24px;
+    border: 2px;
+    margin: 48px 0px;
+    align-items: center;
+    background-color: #21e786;
+
+    /*text btn*/
+
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    color: #141b22;
+}
+
+.whitelist-now-btn {
+    padding: 12px 24px 12px 24px;
+    border: 2px solid #21e786;
+    margin: 0px 24px;
+    align-items: center;
+    background-color: transparent;
+    
+    /*text*/
+
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+/*_________________carusel_____________*/
+
+/*
+.carusel-hft {
+
+}
+*/
+
+.about-us-hdr {
+    padding: 0;
+    border: 1px;
+    margin-left: 240px;
+    margin-top: 0;
+    align-items: center;
+}
+
+.about-us-hdr>h2 {  
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about-us-hdr>p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #c2c3c5;
+}
+
+
+.list-item-abts {
+    background-color: #141b22;
+    margin-left: 120px;
+    margin-top: 216px;
+    border: 3px solid transparent;
+}
+
+.list-item-abts>h3 {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.list-item-abts>p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #C2C3C5;
+}
+
+.numbers-about {
+    font-size: 80px;
+    line-height: 96px;
+    text-transform: capitalize;
+    opacity: 0.5;
+    color: #000;
+    -webkit-text-stroke: 1px #21E786;
+}
+
+.list-item-abts:hover {
+    border: 3px solid transparent;
+    border-image: linear-gradient(to left top,#21E786 10%,  transparent 20%, transparent 80%, #21E786 100%);
+    border-image-slice: 1;
+}
+
+.readmore-about-us {
+    border: 2px solid #21e786;
+    background-color: transparent;
+    padding: 12px 24px 12px 24px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+/*__________________how work_________________________*/
+
+.how-to-work-hdr>h2 {
+    font-size: 44px;
+    line-height: 56px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.step-how-to {
+    background-color: #141b22;
+    border: 3px solid  transparent;
+    margin: 30px;
+}
+
+.step-how-to:hover {
+    border: 3px solid transparent;
+    border-image: linear-gradient(to left top,#21E786 10%,  transparent 20%, transparent 80%, #21E786 100%);
+    border-image-slice: 1;
+}
+
+.step-items>dt {
+    line-height: 30px;
+    font-size: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #21e786;
+}
+
+.step-items>dd {
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/*___________________ road map__________________________*/
+
+.road-map-hdr>h2 {
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.road-map-list {
+    background: #ffffff0d;
+}
+
+.phase-step {
+    font-family: "Bakbak one", Impact,
+    sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.phase-items {    
+    list-style: none;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #c2c3c5;
+}
+
+.r-map-list-btns {
+    list-style: none;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+/*___________________our team__________________________*/
+
+.our-team-hdr>h2 {
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.our-team-member {
+    box-shadow: 0px 2px 5px 0px #1c24331a;
+    background: #141b22;
+    margin-top: 116px;
+    border: 3px solid  transparent;
+}
+
+.our-team-member:hover {
+    border: 3px solid transparent;
+    border-image: linear-gradient(to left top,#21E786 10%,  transparent 20%, transparent 80%, #21E786 100%);
+    border-image-slice: 1;
+}
+
+.card-name-prof {
+    padding: 0px;
+    border: 1px;
+}
+
+.card-name-prof>dt {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.card-name-prof>dd {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #c2c3c5;
+    margin: 4px 0px;
+}
+
+.partner-hdr>h2 {
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/*__________________________faq______________________________*/
+
+
+.faq-hdr>h2 {
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+    .details-item {
+    background: #141b22;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px;
+    margin: 24px 0px;
+}
+
+    .details-item>summary {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+    .details-item>p {        
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #c2c3c5;
+}
+
+/*___________________join___________________*/
+
+.subscribe-hdr>h2 {
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.subscribe-hdr>p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #c2c3c5;
+    text-transform: capitalize;
+}
+
+.btn-discord-footer {
+    background: #5865f2;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    align-items: center;
+    padding: 12px 24px 12px 24px;
+}
+
+.btn-whitelist-footer {    
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    color: #141b22;
+    background: #21e786;
+    align-items: center;
+    padding: 12px 24px 12px 24px;
+}
+
+.list-nav-links-footer a {
+    text-decoration: none;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    color: #c2c3c5;
+    text-transform: capitalize;
+}
+
+.list-nav-links-footer a:hover {
+    color: #21e786;
+}
+
+/*_________________________catalog_______________*/
+
+
+.line-hdr>h1 {
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #141b22;;
+}
+
+.breadcrumb-nav {
+    list-style: none;
+}
+
+.breadcrumb-nav li {
+    display: inline;
+}
+
+.breadcrumb-nav li+li:before {
+    padding: 2px;
+    color: #888b8e;
+    content: "|";
+}
+
+.breadcrumb-nav a {
+    color: #888b8e;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.breadcrumb-nav li:last-child a {
+    color: #08fa0c;
+}
+
+
+.catalog-nft>h2 {
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.subscribe-secondary {
+    background: linear-gradient(225deg, #2333de 0%, #0abe66 100%);
+    border-radius: 8px;
+}
+
+.footer-secondary>p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.list-nav-links-footer-secondary>h3 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.list-nav-links-footer-secondary>ul>li>a {
+font-family: Poppins, Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: right;
+color: #c2c3c5;
+text-transform: capitalize;
+}
+
+.list-nav-links-footer-secondary>ul>li>a:hover {
+    color: #21e786;
+}
+
+.list-links-footer-secondary>h3 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.list-links-footer-secondary>ul>li>a {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #c2c3c5;
+    text-transform: capitalize;
+}
+
+.list-links-footer-secondary>ul>li>a:hover {
+    color: #21e786;
+}
+
+/*______________________catalog item_________________*/
+
+
+.item-info>h2 {
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.item-info>p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* ! нужнно поменять код html добавив отдельные списки а не один с несколькими вложеными dt ? */
+.meta-info-item dt {
+    background: #141b22;
+    padding: 20px;
+    border:1px;
+}
+
+.meta-info-name {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #c2c3c5;
+}
+
+.meta-info-value {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.txt-for-price, .price-for-item {
+    font-family: "Bakbak One", Impact,
+    sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.links-item-info a:first-child {
+    align-items: center;
+    padding: 16px 24px 16px 24px;
+    border: 2px;
+    margin-bottom: 80px;
+    background: #21e786;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    color: #141b22;
+}
+
+.links-item-info a {
+    border: 2px solid #888b8e;
+    padding: 16px 24px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.carusel-hft>h2 {
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.carusel-item>h3 {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+/*________need to change the picture to svg for correct disp_____________*/
+.slider-btn button {
+    border: 1px solid #21e786;
+    background-color: transparent;
+}
+
+.slider-btn button :hover {
+    background: #21e786;
+}
+
+
+
+
+
+
+
+
+
