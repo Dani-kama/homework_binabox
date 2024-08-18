@@ -599,7 +599,7 @@ p {
     text-align: left;
 }
 
-/* ! нужнно поменять код html добавив отдельные списки а не один с несколькими вложеными dt ? */
+/* ! need to change the html code to add separate lists instead of one with multiple nested dt ? */
 .meta-info-item dt {
     background: #141b22;
     padding: 20px;
