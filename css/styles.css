@@ -1,13 +1,8 @@
-@font-face {
-    font-family: "Bakbak one";
-    src: url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
-}
 
 body {
     background-color: #0D0D11;
     box-sizing: border-box;
-    font-family: "Bakbak one", Impact,
-    sans-serif;
+    font-family: "Bakbak one", Impact, sans-serif;
     font-style: normal;
     font-weight: 400;
     color: #fff;
@@ -32,19 +27,17 @@ a {
 }
 
 p {
-    font-family: Poppins, Arial, Helvetica,
-    sans-serif;
+    font-family: Poppins, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
-    color: #FFFFFF;
+    color: #ffffff;
 }
-
 
 /*_______________________header_______________________*/
 
 .main-header {
     background-color: #040b11;
-    }
+}
 
 /*_______________________nav links_____________________*/
 
@@ -57,16 +50,15 @@ p {
 }
 
 .nav-link-hdr a:hover {
-    color:#21e786;
+    color: #21e786;
     text-decoration: underline ;
 }
 
 .nav-link-hdr a:visited {
-    color:#ffffffa7;
+    color: #ffffff;
 }
 
 /*_______________________dropdown_______________________*/
-
 
 .nav-link-hdr:hover > .subnav {
     display: block;
@@ -98,13 +90,13 @@ p {
 .tagline {
     padding: 0;
     border: 1px;
-    margin: 24px 0px;
+    margin: 24px 0;
 }
 
 .main-tagline {
     font-size: 72px;
     line-height: 80px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     text-transform: uppercase;
 }
@@ -112,20 +104,20 @@ p {
 .main-tagline>p {
     font-size: 20px;
     line-height: 30px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
 }
 
 .numbers {
     padding: 0;
     border: 1px;
-    margin: 48px 0px;
+    margin: 48px 0;
 }
 
 .numbers-item {
     font-size: 44px;
     line-height: 56px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     text-transform: uppercase;
     text-shadow: 0 4px 13px  #ffffff66;
@@ -134,7 +126,7 @@ p {
 .numbers-text {    
     font-size: 16px;
     line-height: 26px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     color: #c2c3c5;
 }
@@ -142,13 +134,13 @@ p {
 .tagline-btns {
     padding: 0;
     border: 1px;
-    margin: 48px 0px;
+    margin: 48px 0;
 }
 
 .connect-wallet-btn {
     padding: 12px 24px 12px 24px;
     border: 2px;
-    margin: 48px 0px;
+    margin: 48px 0;
     align-items: center;
     background-color: #21e786;
 
@@ -156,7 +148,7 @@ p {
 
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     text-transform: uppercase;
     color: #141b22;
@@ -165,7 +157,7 @@ p {
 .whitelist-now-btn {
     padding: 12px 24px 12px 24px;
     border: 2px solid #21e786;
-    margin: 0px 24px;
+    margin: 0 24px;
     align-items: center;
     background-color: transparent;
     
@@ -173,7 +165,7 @@ p {
 
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     text-transform: uppercase;
     color: #ffffff;
@@ -198,7 +190,7 @@ p {
 .about-us-hdr>h2 {  
     font-size: 44px;
     line-height: 56px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: center;
     text-transform: uppercase;
 }
@@ -206,7 +198,7 @@ p {
 .about-us-hdr>p {
     font-size: 18px;
     line-height: 28px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: center;
     color: #c2c3c5;
 }
@@ -222,7 +214,7 @@ p {
 .list-item-abts>h3 {
     font-size: 24px;
     line-height: 30px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     text-transform: uppercase;
 }
@@ -230,7 +222,7 @@ p {
 .list-item-abts>p {
     font-size: 18px;
     line-height: 28px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     color: #C2C3C5;
 }
@@ -256,7 +248,7 @@ p {
     padding: 12px 24px 12px 24px;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     text-transform: uppercase;
     color: #ffffff;
@@ -286,7 +278,7 @@ p {
 .step-items>dt {
     line-height: 30px;
     font-size: 22px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: center;
     text-transform: uppercase;
     color: #21e786;
@@ -304,7 +296,7 @@ p {
 .road-map-hdr>h2 {
     font-size: 44px;
     line-height: 56px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: center;
     text-transform: uppercase;
 }
@@ -314,24 +306,23 @@ p {
 }
 
 .phase-step {
-    font-family: "Bakbak one", Impact,
-    sans-serif;
+    font-family: "Bakbak one", Impact, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
     line-height: 44px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     text-transform: uppercase;
 }
 
 .phase-items {    
     list-style: none;
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-family: Poppins, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     color: #c2c3c5;
 }
@@ -340,7 +331,7 @@ p {
     list-style: none;
     font-size: 20px;
     line-height: 28px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     text-transform: uppercase;
 }
@@ -350,13 +341,13 @@ p {
 .our-team-hdr>h2 {
     font-size: 44px;
     line-height: 56px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: center;
     text-transform: uppercase;
 }
 
 .our-team-member {
-    box-shadow: 0px 2px 5px 0px #1c24331a;
+    box-shadow: 0 2px 5px 0 #1c24331a;
     background: #141b22;
     margin-top: 116px;
     border: 3px solid  transparent;
@@ -369,33 +360,33 @@ p {
 }
 
 .card-name-prof {
-    padding: 0px;
+    padding: 0;
     border: 1px;
 }
 
 .card-name-prof>dt {
     font-size: 24px;
     line-height: 30px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: center;
     text-transform: capitalize;
 }
 
 .card-name-prof>dd {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-family: Poppins, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: center;
     color: #c2c3c5;
-    margin: 4px 0px;
+    margin: 4px 0;
 }
 
 .partner-hdr>h2 {
     font-size: 44px;
     line-height: 56px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: center;
     text-transform: capitalize;
 }
@@ -406,7 +397,7 @@ p {
 .faq-hdr>h2 {
     font-size: 44px;
     line-height: 56px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: center;
     text-transform: uppercase;
 }
@@ -418,23 +409,23 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     border: 1px;
-    margin: 24px 0px;
+    margin: 24px 0;
 }
 
     .details-item>summary {
     font-size: 24px;
     line-height: 30px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     text-transform: capitalize;
 }
 
     .details-item>p {        
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-family: Poppins, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     color: #c2c3c5;
 }
@@ -444,7 +435,7 @@ p {
 .subscribe-hdr>h2 {
     font-size: 44px;
     line-height: 56px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: center;
     text-transform: uppercase;
 }
@@ -452,7 +443,7 @@ p {
 .subscribe-hdr>p {
     font-size: 18px;
     line-height: 28px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: center;
     color: #c2c3c5;
     text-transform: capitalize;
@@ -463,28 +454,30 @@ p {
     color: #ffffff;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     text-transform: uppercase;
     align-items: center;
     padding: 12px 24px 12px 24px;
+    border: 0;
 }
 
 .btn-whitelist-footer {    
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     text-transform: uppercase;
     color: #141b22;
     background: #21e786;
     align-items: center;
     padding: 12px 24px 12px 24px;
+    border: 0;
 }
 
 .list-nav-links-footer a {
     text-decoration: none;
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-family: Poppins, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
@@ -503,7 +496,7 @@ p {
 .line-hdr>h1 {
     font-size: 44px;
     line-height: 56px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: center;
     text-transform: uppercase;
     background-color: #141b22;;
@@ -520,7 +513,7 @@ p {
 .breadcrumb-nav li+li:before {
     padding: 2px;
     color: #888b8e;
-    content: "|";
+    content: "| ";
 }
 
 .breadcrumb-nav a {
@@ -528,7 +521,7 @@ p {
     text-decoration: none;
     font-size: 14px;
     line-height: 20px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     text-transform: uppercase;
 }
@@ -541,65 +534,50 @@ p {
 .catalog-nft>h2 {
     font-size: 44px;
     line-height: 56px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     text-transform: capitalize;
 }
 
-.subscribe-secondary {
-    background: linear-gradient(225deg, #2333de 0%, #0abe66 100%);
+.subscribe-colored {
+    background: linear-gradient(225deg, #2333de 0, #0abe66 100%);
     border-radius: 8px;
 }
 
-.footer-secondary>p {
+.footer-colored>p {
     font-size: 16px;
     line-height: 26px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
 }
-.list-nav-links-footer-secondary>h3 {
+.list-nav-links-footer-colored>h3 {
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: center;
     text-transform: uppercase;
 }
 
-.list-nav-links-footer-secondary>ul>li>a {
-font-family: Poppins, Arial, Helvetica, sans-serif;
-font-size: 14px;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0%;
-text-align: right;
-color: #c2c3c5;
-text-transform: capitalize;
-}
-
-.list-nav-links-footer-secondary>ul>li>a:hover {
-    color: #21e786;
-}
-
-.list-links-footer-secondary>h3 {
+.list-links-footer-colored>h3 {
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: center;
     text-transform: uppercase;
 }
 
-.list-links-footer-secondary>ul>li>a {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+.footer-colored-links {
+    font-family: Poppins, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: right;
     color: #c2c3c5;
     text-transform: capitalize;
 }
 
-.list-links-footer-secondary>ul>li>a:hover {
+.footer-colored-links:hover {
     color: #21e786;
 }
 
@@ -609,7 +587,7 @@ text-transform: capitalize;
 .item-info>h2 {
     font-size: 44px;
     line-height: 56px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     text-transform: uppercase;
 }
@@ -617,7 +595,7 @@ text-transform: capitalize;
 .item-info>p {
     font-size: 20px;
     line-height: 30px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
 }
 
@@ -629,11 +607,11 @@ text-transform: capitalize;
 }
 
 .meta-info-name {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-family: Poppins, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     color: #c2c3c5;
 }
@@ -641,18 +619,17 @@ text-transform: capitalize;
 .meta-info-value {
     font-size: 24px;
     line-height: 30px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     text-transform: uppercase;
 }
 
 .txt-for-price, .price-for-item {
-    font-family: "Bakbak One", Impact,
-    sans-serif;
+    font-family: "Bakbak One", Impact, sans-serif;
     font-size: 36px;
     font-weight: 400;
     line-height: 44px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     text-transform: uppercase;
 }
@@ -665,7 +642,7 @@ text-transform: capitalize;
     background: #21e786;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     text-transform: uppercase;
     color: #141b22;
@@ -676,7 +653,7 @@ text-transform: capitalize;
     padding: 16px 24px;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     text-transform: uppercase;
     color: #ffffff;
@@ -685,7 +662,7 @@ text-transform: capitalize;
 .carusel-hft>h2 {
     font-size: 44px;
     line-height: 56px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     text-transform: uppercase;
 }
@@ -693,7 +670,7 @@ text-transform: capitalize;
 .carusel-item>h3 {
     font-size: 20px;
     line-height: 28px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     text-transform: uppercase;
 }
