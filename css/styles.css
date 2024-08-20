@@ -510,7 +510,7 @@ p {
     display: inline;
 }
 
-.breadcrumb-nav li+li:before {
+.breadcrumb-nav li:not(:first-child):before {
     padding: 2px;
     color: #888b8e;
     content: "| ";
@@ -599,7 +599,7 @@ p {
     text-align: left;
 }
 
-/* ! need to change the html code to add separate lists instead of one with multiple nested dt ? */
+/* ! нужнно поменять код html добавив отдельные списки а не один с несколькими вложеными dt ? */
 .meta-info-item dt {
     background: #141b22;
     padding: 20px;
