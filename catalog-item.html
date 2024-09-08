@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BINABOX item</title>
-    <link rel="stylesheet" href="/homework_binabox/css/normalize.css">
-    <link rel="stylesheet" href="/homework_binabox/css/styles.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins&display=swap" rel="stylesheet">
@@ -14,99 +14,122 @@
 <body>
 
     <header class="main-header hdr" id="home">
-        <a href="/index.html" class="logo-img"><img src="./img/logo.png" alt="binabox logo"></a>
+        <a href="/index.html" class="logo-img"><img src="/img/logos/logo_binabox.svg" alt="binabox logo" width="36" height="40"><span class="logo-img-text">Binabox</span></a>
 
         <nav class="header-nav">
             <ul class="hader-nav-list">
                 <li class="nav-link-hdr nav-link">
                     <a href="#">home</a>
-                    <img src="/img/arrow-down.png" alt="">
-                        <ul class="subnav">
-                            <li class="subnav-item">
-                                <a class="subnav-link" href="/index.html">homepage1</a>
-                            </li>
-                            <li class="subnav-item">
-                                <a class="subnav-link" href="#">homepage2</a>
-                            </li>
-                            <li class="subnav-item">
-                                <a class="subnav-link" href="#">homepage3</a>
-                            </li>
-                        </ul>
+                    <svg class="arrow-nav-menu"  width="15" height="10">
+                        <use href="/img/sprite.svg#arrow-down"></use>
+                    </svg>
+                    <ul class="subnav">
+                        <li class="subnav-item">
+                            <a class="subnav-link" href="/index.html">homepage1</a>
+                        </li>
+                        <li class="subnav-item">
+                            <a class="subnav-link" href="#">homepage2</a>
+                        </li>
+                        <li class="subnav-item">
+                            <a class="subnav-link" href="#">homepage3</a>
+                        </li>
+                    </ul>
                 </li>
-                
+
                 <li class="nav-link-hdr nav-link">
-                        <a href="#">about</a>
-                        <img src="/img/arrow-down.png" alt="">
-                            <ul class="subnav">
-                                <li class="subnav-item">
-                                    <a class="subnav-link" href="#about_us">about</a>
-                                </li>
-                                <li class="subnav-item">
-                                    <a class="subnav-link" href="#">page</a>
-                                </li>
-                            </ul>
-                    </li>
+                    <a href="#">about</a>
+                    <svg class="arrow-nav-menu"  width="15" height="10">
+                        <use href="/img/sprite.svg#arrow-down"></use>
+                    </svg>
+                    <ul class="subnav">
+                        <li class="subnav-item">
+                            <a class="subnav-link" href="#about_us">about</a>
+                        </li>
+                        <li class="subnav-item">
+                            <a class="subnav-link" href="#">page</a>
+                        </li>
+                    </ul>
+                </li>
 
                 <li class="nav-link-hdr nav-link">
                     <a href="#">roadmap</a>
-                    <img src="/img/arrow-down.png" alt="">
-                        <ul class="subnav">
-                            <li class="subnav-item">
-                                <a class="subnav-link" href="#roadmap">about</a>
-                            </li>
-                            <li class="subnav-item">
-                                <a class="subnav-link" href="#">page</a>
-                            </li>
-                        </ul>
+                    <svg class="arrow-nav-menu"  width="15" height="10">
+                        <use href="/img/sprite.svg#arrow-down"></use>
+                    </svg>
+                    <ul class="subnav">
+                        <li class="subnav-item">
+                            <a class="subnav-link" href="#roadmap">about</a>
+                        </li>
+                        <li class="subnav-item">
+                            <a class="subnav-link" href="#">page</a>
+                        </li>
+                    </ul>
                 </li>
-                
+
                 <li class="nav-link-hdr nav-link">
                     <a href="#">collection</a>
-                    <img src="/img/arrow-down.png" alt="">
+                    <svg class="arrow-nav-menu"  width="15" height="10">
+                        <use href="/img/sprite.svg#arrow-down"></use>
+                    </svg>
                 </li>
 
                 <li class="nav-link-hdr nav-link">
                     <a href="#">faq</a>
-                    <img src="/img/arrow-down.png" alt="">
-                        <ul class="subnav">
-                            <li class="subnav-item">
-                                <a class="subnav-link" href="#faq">faq</a>
-                            </li>
-                            <li class="subnav-item">
-                                <a class="subnav-link" href="#">page</a>
-                            </li>
-                        </ul>
+                    <svg class="arrow-nav-menu"  width="15" height="10">
+                        <use href="/img/sprite.svg#arrow-down"></use>
+                    </svg>
+                    <ul class="subnav">
+                        <li class="subnav-item">
+                            <a class="subnav-link" href="#faq">faq</a>
+                        </li>
+                        <li class="subnav-item">
+                            <a class="subnav-link" href="#">page</a>
+                        </li>
+                    </ul>
                 </li>
 
                 <li class="nav-link-hdr nav-link">
                     <a href="#">pages</a>
-                    <img src="/img/arrow-down.png" alt="">
-                        <ul class="subnav">
-                            <li class="subnav-item">
-                                <a class="subnav-link" href="#catalog">catalog</a>
-                            </li>
-
-                            <li class="subnav-item">
-                                <a class="subnav-link" href="#blog">blog</a>
-                            </li>
-
-                            <li class="subnav-item">
-                                <a class="subnav-link" href="#about-us">about us</a>
-                            </li>
-                            
-                        </ul>
+                    <svg class="arrow-nav-menu"  width="15" height="10">
+                        <use href="/img/sprite.svg#arrow-down"></use>
+                    </svg>
+                    <ul class="subnav">
+                        <li class="subnav-item">
+                            <a class="subnav-link" href="#catalog">catalog</a>
+                        </li>
+                        <li class="subnav-item">
+                            <a class="subnav-link" href="#blog">blog</a>
+                        </li>
+                        <li class="subnav-item">
+                            <a class="subnav-link" href="#about-us">about us</a>
+                        </li>
+                    </ul>
                 </li>
-
             </ul>
         </nav>
+            
+        <div class="header-connect-btn">
+            <button class="switch-light-button">
+                <svg class="switch-light-icon" width="23" height="24">
+                    <use href="/img/sprite.svg#sun" alt=""></use>
+                </svg>
+            </button>
 
-            <button class="switch-light"><img src="./img/switch-btn.png" alt="switch mode"></button>
-
-            <div class="header-connect-btn">
-                <button class="btn-discord-header"><img src="./img/discord-original.png" alt="join us in discord"></button>
-                <button class="btn-connect-header"><img src="./img/connect-btn.png" alt="connect">connect</button>
-            </div>
-
+            <button class="btn-discord-header">
+                <svg class="button-discord-ico" width="24" height="19">
+                    <use href="/img/sprite.svg#discord" alt=""></use>
+                </svg>
+                Discord
+            </button>
+            
+            <button class="btn-connect-header">
+                <svg class="btn-connect-ico" width="22" height="19">
+                    <use href="/img/sprite.svg#wallet" alt=""></use>
+                </svg>
+                connect
+            </button>
+        </div>
+    
     </header>
     
     <main>
@@ -120,7 +143,10 @@
     
         <section class="item-detail">
             <div class="item-img">
-                <img src="./img/catalog-items/Image-Library-NFT-Pictures-3.png" alt="item image">
+                <picture class="selected-img-item">
+                    <source srcset="/img/nft-cards/nft-item123456.webp" type="image/webp">
+                    <img src="/img/nft-cards/nft-item123456.png" alt="Product Description" width="690" height="690" class="product-img" loading="lazy">
+                </picture>
                 <!--html+css+js countdown-->
             </div>
 
@@ -149,9 +175,23 @@
                 </div>
 
                 <div class="links-item-info">
-                    <a class="buy-item-btn" href="#"><img src="./img/Bag-2-icon.png" alt="">BUY ON OPENSEA</a>
-                    <a href="#"><img src="./img/discord-ico.png" alt="discord logo">JOIN discord</a>
-                    <a href="#"><img src="./img/twitter-ico.png" alt="discord logo">JOIN twitter</a>
+                    <a class="buy-item-btn" href="#">
+                        <svg width="20" height="20">
+                            <use href="/img/sprite.svg#bag"></use>
+                        </svg>
+                        BUY ON OPENSEA</a>
+                    <a href="#">
+                        <svg width="24" height="19">
+                            <use href="/img/sprite.svg#discord"></use>
+                        </svg>
+                        JOIN discord
+                    </a>
+                    <a href="#">
+                        <svg width="21" height="18">
+                            <use href="/img/sprite.svg#xtwi"></use>
+                        </svg>
+                        JOIN twitter
+                    </a>
                 </div>
             </div>
         </section>
@@ -160,53 +200,86 @@
             <h2>EXPLORE COLECTIONS</h2>
             <ul class="carusel-list-catalog-page">
                 <li class="carusel-item">
-                    <img src="./img/nft-card1.png" alt="nft card" class="carussel-img">
-                    <h3>SKISIRS#2</h3>
+                    <figure class="carusel-items">
+                        <picture class="carusel-item-image">
+                            <source srcset="/img/nft-cards/property193.webp" type="image/webp">
+                            <img width="290" height="290" src="/img/nft-cards/property193.jpg" alt="Binabox library image">
+                        </picture>
+                        <figcaption class="nft-item-name">sKISIRS#2</figcaption>
                 </li>
                 <li class="carusel-item">
-                    <img src="./img/nft-card2.png" alt="nft card" class="carussel-img">
-                    <h3>SKISIRS#2</h3>
+                    <figure class="carusel-items">
+                        <picture class="carusel-item-image">
+                            <source srcset="/img/nft-cards/property194.webp" type="image/webp">
+                            <img width="290" height="290" src="/img/nft-cards/property194.jpg" alt="Binabox library image">
+                        </picture>
+                        <figcaption class="nft-item-name">sKISIRS#2</figcaption>
                 </li>
                 <li class="carusel-item">
-                    <img src="./img/nft-card3.png" alt="nft card" class="carussel-img">
-                    <h3>SKISIRS#2</h3>
+                    <figure class="carusel-items">
+                        <picture class="carusel-item-image">
+                            <source srcset="/img/nft-cards/property195.webp" type="image/webp">
+                            <img width="290" height="290" src="/img/nft-cards/property196.jpg" alt="Binabox library image">
+                        </picture>
+                        <figcaption class="nft-item-name">sKISIRS#2</figcaption>
                 </li>
                 <li class="carusel-item">
-                    <img src="./img/nft-card4.png" alt="nft card" class="carussel-img">
-                    <h3>SKISIRS#2</h3>
+                    <figure class="carusel-items">
+                        <picture class="carusel-item-image">
+                            <source srcset="/img/nft-cards/property197.webp" type="image/webp">
+                            <img width="290" height="290" src="/img/nft-cards/property197.jpg" alt="Binabox library image">
+                        </picture>
+                        <figcaption class="nft-item-name">sKISIRS#2</figcaption>
                 </li>
                 <li class="carusel-item">
-                    <img src="./img/nft-card5.png" alt="nft card" class="carussel-img">
-                    <h3>SKISIRS#2</h3>
+                    <figure class="carusel-items">
+                        <picture class="carusel-item-image">
+                            <source srcset="/img/nft-cards/property198.webp" type="image/webp">
+                            <img width="290" height="290" src="/img/nft-cards/property198.jpg" alt="Binabox library image">
+                        </picture>
+                        <figcaption class="nft-item-name">sKISIRS#2</figcaption>
                 </li>
                 <li class="carusel-item">
-                    <img src="./img/nft-card6.png" alt="nft card" class="carussel-img">
-                    <h3>SKISIRS#2</h3>
+                    <figure class="carusel-items">
+                        <picture class="carusel-item-image">
+                            <source srcset="/img/nft-cards/property199.webp" type="image/webp">
+                            <img width="290" height="290" src="/img/nft-cards/property199.jpg" alt="Binabox library image">
+                        </picture>
+                        <figcaption class="nft-item-name">sKISIRS#2</figcaption>
                 </li>
             </ul>
 
             <div class="slider-btn">
-                <button type="button" class="slider-left"><img src="./img/arrow-left.png" alt="left icon"><span class="hidden">previous</span></button>
-                <button type="button" class="slider-right"><img src="./img/arrow-right.png" alt="right icon"><span class="hidden">next</span></button>
+                <button type="button" class="slider-left">
+                    <svg width="19" height="32" viewBox="0 0 19 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 29L2 16.0001L16 3"  stroke-width="4" stroke-miterlimit="10" stroke-linecap="square" stroke-linejoin="round"/>
+                    </svg>
+                    <span class="hidden">previous</span>
+                </button>
+                <button type="button" class="slider-right">
+                    <svg width="19" height="32" viewBox="0 0 19 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 29L2 16.0001L16 3"  stroke-width="4" stroke-miterlimit="10" stroke-linecap="square" stroke-linejoin="round"/>
+                    </svg>
+                    <span class="hidden">next</span>
+                </button>
             </div>
 
         </section>
 
-        
         <section class="subscribe-colored">
             <header class="subscribe-hdr hdr">
                 <h2>JOIN OUR COMMUNITY</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </header>
-            <button class="btn-discord-footer"><img src="./img/discord-original.png" alt="join us in discord">discord</button>
+            <button class="btn-discord-footer"><svg class="button-discord-ico" width="24" height="19">
+                <use href="/img/sprite.svg#discord" alt=""></use>
+            </svg>discord</button>
             <button class="btn-whitelist-footer">whitelist now</button>
         </section>
 
         <footer class="footer-colored">
-            <div class="logo-button">
-                <a href="/index.html" class="logo-img"><img src="./img/logo.png" alt="binabox logo"></a>
+            <a href="/index.html" class="logo-img-colored-footer"><img src="/img/logos/logo_binabox.svg" alt="binabox logo" width="32" height="36"><span class="logo-img-text-colored-footer">Binabox</span></a>
                 <p>We are the best way to check the rarity of NFT collection.</p>
-            </div>
             
             <div class="list-nav-links-footer-colored">
                 <h3>SUBSCRIBE</h3>
@@ -230,8 +303,52 @@
             </div>
             <div class="copyright">
                 <p>BINABOX <time>2022</time> -&copy;ALL rights reserved</p>
+            
+                <ul class="social-links-list">
+                    <li class="social-links-items-footer-colored">
+                        <a href="" class="social-link">
+                            <svg class="social-link-ico">
+                                <use href="/img/sprite.svg#xtwi" width="18"     height="16"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-links-items-footer-colored">
+                        <a href="" class="social-link">
+                            <svg class="social-link-ico">
+                                <use href="/img/sprite.svg#fb" width="20"   height="18"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-links-items-footer-colored">
+                        <a href="" class="social-link">
+                            <svg class="social-link-ico">
+                                <use href="/img/sprite.svg#tg" width="20"   height="18"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-links-items-footer-colored">
+                        <a href="" class="social-link">
+                            <svg class="social-link-ico">
+                                <use href="/img/sprite.svg#yt" width="20"   height="16"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-links-items-footer-colored">
+                        <a href="" class="social-link">
+                            <svg class="social-link-ico">
+                                <use href="/img/sprite.svg#tt" width="20"   height="20"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-links-items-footer-colored">
+                        <a href="" class="social-link">
+                            <svg class="social-link-ico">
+                                <use href="/img/sprite.svg#ds" width="20"   height="16"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
             </div> 
-            <!--subscribe form and icons-->
         </footer>
 
     </main>

@@ -39,6 +39,17 @@ p {
     background-color: #040b11;
 }
 
+.logo-img-text {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Bakbak One;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    text-transform: uppercase;
+    margin: 0 16px;
+}
+
 /*_______________________nav links_____________________*/
 
 .nav-link-hdr a:link {
@@ -82,7 +93,44 @@ p {
     font-size: 16px;
     line-height: 24px;
     text-transform: uppercase;
-    color: #141B22;
+    display: flex;
+    gap: 20px;
+}
+
+.switch-light-button {
+    border: none;
+    width: 48px;
+    height: 48px;
+    border-radius: 41px;
+    background: #141b22;
+}
+
+.switch-light-icon {
+    margin-top: 4px;
+}
+
+.btn-discord-header {
+    height: 48px;
+    padding: 12px 24px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background: #141b22;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.btn-connect-header {
+    height: 48px;
+    padding: 12px 24px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background: #21e786;
+    border: none;
+    text-transform: uppercase;
+    color: #141b22;
 }
 
 /*____________________________________________________*/
@@ -91,6 +139,7 @@ p {
     padding: 0;
     border: 1px;
     margin: 24px 0;
+    background: linear-gradient(3deg, #040b11 52.14%, rgba(4, 11, 17, 0) 73.21%);
 }
 
 .main-tagline {
@@ -173,11 +222,20 @@ p {
 
 /*_________________carusel_____________*/
 
-/*
-.carusel-hft {
+/* .carusel-hft {
+    display: flex;
+} */
 
+.carusel-items {
+    background: #ffffff0d;
+    padding: 20px;
 }
-*/
+
+.nft-item-name {
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
 
 .about-us-hdr {
     padding: 0;
@@ -318,25 +376,76 @@ p {
 
 .phase-items {    
     list-style: none;
-    font-family: Poppins, Helvetica, sans-serif;
     font-size: 18px;
-    font-weight: 400;
     line-height: 28px;
     letter-spacing: 0;
-    text-align: left;
     color: #c2c3c5;
+    text-transform: capitalizeupp;
 }
 
-.r-map-list-btns {
+.phase-items>p::before {
+    content: url(/img/logos/icon_w24h24.png);
+    margin-right: 8px;
+}
+
+.r-map-btns-arrows {
+    border: none;
+    background-color: transparent;
+}
+
+.arrow-left-roadmap {
+    transform: rotate(90deg);
+}
+
+.arrow-right-roadmap {
+    transform: rotate(-90deg);
+}
+
+.r-map-btns-arrows:hover {
+    fill: #21E786;
+}
+/* How else can I recolor the color of the svg arrow when hovering (because this method doesn't work properly) or should I just apply different images? I would like to use only styling. */
+
+.r-map-list-btns-item {
     list-style: none;
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 0;
-    text-align: left;
     text-transform: uppercase;
+    color: #888b8e;
+    border: none;
+    background-color: transparent;
+}
+
+.r-map-list-btns-item:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.r-map-list-btns-item:hover.r-map-list-btns-item:before {
+    content: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' height='30' width='30'><circle cx='15' cy='15' r='15' fill='%2321E786' fill-opacity='0.2' /> <circle cx='15' cy='15' r='7.5' fill='%2321E786' /></svg>");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.r-map-list-btns-item:before {
+    content: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' height='30' width='30'><circle cx='15' cy='15' r='15' fill='%23fff' fill-opacity='0.2' /> <circle cx='15' cy='15' r='7.5' fill='%23fff' /></svg>");
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /*background-image: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' width='152' height='2' viewBox='0 0 152 2'><path d='M0 1H152' stroke='%23888B8E' stroke-width='2' /></svg>");
+    background-repeat: no-repeat; */
 }
 
 /*___________________our team__________________________*/
+
+.photo-team-card-img {
+    width: 148px;
+    height: 148px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 
 .our-team-hdr>h2 {
     font-size: 44px;
@@ -393,6 +502,26 @@ p {
 
 /*__________________________faq______________________________*/
 
+.details-item[open] .details-item-header::after {
+    content: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' height='32' width='32'><path d='M19.6663 2L10.9997 2L2.33301 2' stroke='%2321E786' stroke-width='3' stroke-miterlimit='10' stroke-linecap='square' stroke-linejoin='round' /></svg>");
+    width: 32px;
+    height: 32px;
+}
+
+.details-item-header::after {
+    content: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' height='32' width='32'><path d='M24.6663 16H15.9997L7.33301 16' stroke='%2321E786' stroke-width='3' stroke-miterlimit='10' stroke-linecap='square' stroke-linejoin='round'/><path d='M15.999 24.6673L15.999 16.0007L15.999 7.33398' stroke='%2321E786' stroke-width='3' stroke-miterlimit='10' stroke-linecap='square' stroke-linejoin='round'/></svg>");
+    width: 32px;
+    height: 32px;
+}
+
+.details-item-header:not(:hover).details-item-header::after {
+    opacity: 50%;
+}
+
+.details-item>p {
+border-top: 1px solid #434343;
+padding-top: 15px;
+}
 
 .faq-hdr>h2 {
     font-size: 44px;
@@ -410,6 +539,7 @@ p {
     padding-right: 20px;
     border: 1px;
     margin: 24px 0;
+    padding: 15px;
 }
 
     .details-item>summary {
@@ -451,7 +581,6 @@ p {
 
 .btn-discord-footer {
     background: #5865f2;
-    color: #ffffff;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0;
@@ -459,7 +588,11 @@ p {
     text-transform: uppercase;
     align-items: center;
     padding: 12px 24px 12px 24px;
-    border: 0;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border: none;
+    color: #fff;
 }
 
 .btn-whitelist-footer {    
@@ -473,6 +606,20 @@ p {
     align-items: center;
     padding: 12px 24px 12px 24px;
     border: 0;
+}
+
+.social-links-items {
+    width: 50px;
+    height: 50px;
+    background: #c2c3c526;
+}
+
+.logo-img-text-footer {
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 16px;
 }
 
 .list-nav-links-footer a {
@@ -490,6 +637,11 @@ p {
     color: #21e786;
 }
 
+.main-footer {
+    border-top: 1px solid #434343;
+    height: 60px;
+}
+
 /*_________________________catalog_______________*/
 
 
@@ -499,7 +651,7 @@ p {
     letter-spacing: 0;
     text-align: center;
     text-transform: uppercase;
-    background-color: #141b22;;
+    background-color: #141b22;
 }
 
 .breadcrumb-nav {
@@ -513,7 +665,8 @@ p {
 .breadcrumb-nav li+li:before {
     padding: 2px;
     color: #888b8e;
-    content: "| ";
+    content: "|";
+    padding: 8px;
 }
 
 .breadcrumb-nav a {
@@ -667,24 +820,58 @@ p {
     text-transform: uppercase;
 }
 
-.carusel-item>h3 {
-    font-size: 20px;
-    line-height: 28px;
-    letter-spacing: 0;
-    text-align: left;
-    text-transform: uppercase;
-}
-
 /*________need to change the picture to svg for correct disp_____________*/
-.slider-btn button {
-    border: 1px solid #21e786;
+
+.slider-left {
+    width: 48px;
+    height: 48px;
     background-color: transparent;
+    border: 1px solid #21e786;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    stroke:white;
 }
 
-.slider-btn button :hover {
-    background: #21e786;
+/* .slider-left :hover {
+
+} */
+
+.slider-right {
+    width: 48px;
+    height: 48px;
+    background-color: transparent;
+    border: 1px solid #21e786;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(180deg);
+    stroke: white;
 }
 
+/*__________catalog_____________*/
+
+.logo-img-text-colored-footer {
+    font-size: 30px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0px 16px;
+}
+
+.social-links-items-footer-colored {
+    width: 20px;
+    height: 20px;
+}
+
+.copyright {
+    border-top: 1px solid #434343;
+    height: 60px;
+}
+
+.footer-colored {
+    background: #141b22;
+}
 
 
 
