@@ -139,7 +139,7 @@ p {
     padding: 0;
     border: 1px;
     margin: 24px 0;
-    background: linear-gradient(3deg, #040b11 52.14%, rgba(4, 11, 17, 0) 73.21%);
+    background: linear-gradient(3deg, #040b11 52.14%, #040b1100 73.21%);
 }
 
 .main-tagline {
