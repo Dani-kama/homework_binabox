@@ -380,10 +380,10 @@ p {
     line-height: 28px;
     letter-spacing: 0;
     color: #c2c3c5;
-    text-transform: capitalizeupp;
+    text-transform: capitalize;
 }
 
-.phase-items>p::before {
+.phase-items:before {
     content: url(/img/logos/icon_w24h24.png);
     margin-right: 8px;
 }
