@@ -401,11 +401,9 @@ p {
     transform: rotate(-90deg);
 }
 
-.r-map-btns-arrows:hover {
+.r-map-btns-arrows:hover svg {
     fill: #21E786;
 }
-/* How else can I recolor the color of the svg arrow when hovering (because this method doesn't work properly) or should I just apply different images? I would like to use only styling. */
-
 .r-map-list-btns-item {
     list-style: none;
     font-size: 20px;
