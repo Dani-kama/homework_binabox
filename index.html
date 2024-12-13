@@ -791,11 +791,26 @@
                 <use href="/img/sprite.svg#discord"/>
             </svg>discord</button>
             <button class="btn-whitelist-footer">whitelist now</button>
-            <!--place for subscribe-->
-            <form action="">
-
+            <form class="subscribe-form" action="/#" method="post">
+                <label for="user-email" class="hidden">Enter your email</label>
+                <input
+                    class="input-email"
+                    id="user-email"
+                    name="email"
+                    type="email"
+                    placeholder="Enter your email"
+                    inputmode="email"
+                    autocomplete="email"
+                    pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+                    required
+                />
+                <button
+                    class="subscribe-button"
+                    title="Subscribe to our news"
+                    type="submit">
+                    SUBSCRIBE
+                </button>
             </form>
-            <!--place for subscribe-->
             <ul class="social-links-list">
                 <li class="social-links-items">
                     <a href="" class="social-link">
