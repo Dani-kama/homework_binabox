@@ -117,20 +117,24 @@
         </nav>
             
         <div class="header-connect-btn">
-            <button class="switch-light-button" aria-label="Switch light button">
-                <svg class="switch-light-icon" width="23" height="24">
-                    <use href="/img/sprite.svg#sun"/>
-                </svg>
+            <button
+                class="switch-light-button"
+                aria-label="Switch light button"
+                type="button"
+                id="themeToggle">
+                    <svg class="switch-light-icon" width="23" height="24">
+                        <use href="/img/sprite.svg#sun"/>
+                    </svg>
             </button>
 
-            <button class="btn-discord-header">
+            <button class="btn-discord-header" type="button">
                 <svg class="button-discord-ico" width="24" height="19" aria-label="button discord">
                     <use href="/img/sprite.svg#discord"/>
                 </svg>
                 Discord
             </button>
             
-            <button class="btn-connect-header">
+            <button class="btn-connect-header" aria-label="button wallet" type="button">
                 <svg class="btn-connect-ico" width="22" height="19">
                     <use href="/img/sprite.svg#wallet"/>
                 </svg>
@@ -354,7 +358,7 @@
             </div>
 
             <div class="r-map-list-btns-section">
-                <button class="r-map-btns-arrows" type="button">
+                <button class="r-map-btns-arrows" type="button" aria-label="previous">
                     <svg class="arrow-left-roadmap" width="24" viewBox="0 0 12 20">
                         <use href="/img/sprite.svg#arrow-down"/>
                     </svg>
@@ -393,7 +397,7 @@
                         </button>
                     </li>
                 </ol>
-                <button class="r-map-btns-arrows" type="button">
+                <button class="r-map-btns-arrows" type="button" aria-label="next">
                     <svg class="arrow-right-roadmap" width="24" viewBox="0 0 12 20">
                         <use href="/img/sprite.svg#arrow-down"/>
                     </svg>
@@ -786,16 +790,33 @@
                 <h2>JOIN OUR COMMUNITY</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </header>
-            <button class="btn-discord-footer">
+            <button class="btn-discord-footer" type="button">
                 <svg class="button-discord-ico" width="24" height="19">
-                <use href="/img/sprite.svg#discord"/>
-            </svg>discord</button>
+                    <use href="/img/sprite.svg#discord"/>
+                </svg>
+                discord
+            </button>
             <button class="btn-whitelist-footer">whitelist now</button>
-            <!--place for subscribe-->
-            <form action="">
-
+            <form class="subscribe-form" action="/#" method="post">
+                <label for="user-email" class="hidden">Enter your email</label>
+                <input
+                    class="input-email"
+                    id="user-email"
+                    name="email"
+                    type="email"
+                    placeholder="Enter your email"
+                    inputmode="email"
+                    autocomplete="email"
+                    pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+                    required
+                />
+                <button
+                    class="subscribe-button"
+                    title="Subscribe to our news"
+                    type="submit">
+                    SUBSCRIBE
+                </button>
             </form>
-            <!--place for subscribe-->
             <ul class="social-links-list">
                 <li class="social-links-items">
                     <a href="" class="social-link">
